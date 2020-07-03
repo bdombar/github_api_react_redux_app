@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  background-color: #9D9EEE;
+  color: #E0E0F1;
+  text-align: center;
+  padding: 2em;
+}
+
+.search-section {
+  padding: 2em;
+  text-align: center;
+}
+
+#error-message {
+  color: red;
+  font-size: 10px;
+}
+
+.chart-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+canvas {
+  width: 70vw !important;
+  height: 70vh !important;
+  align-self: center;
+}
+
+.list-retrieved {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.list-item {
+  display: flex;
+  padding: 1em;
+  width: 50vw;
+}
+
+.list-item:hover {
+  background-color: #E0E0F1;
+  cursor: pointer;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pic {
+  height: 80px;
+  padding-right: 1em;
+}
+
+.user-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+}
+
+.user-data .pic {
+  height: 250px;
+}
+
+.full-user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 60vh;
+}
